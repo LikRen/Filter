@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2; }
+  body .container-fluid header {
+    height: 92px;
+    background-color: #7828B4; }
+    body .container-fluid header a {
+      text-indent: 110%;
+      white-space: nowrap;
+      overflow: hidden;
+      background-image: url(../Images/logo.svg);
+      background-repeat: no-repeat;
+      background-position-y: center;
+      background-position-x: 20%; }
+    body .container-fluid header .seachBar {
+      width: 388px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid white;
+      position: relative; }
+      body .container-fluid header .seachBar i {
+        position: absolute;
+        left: 5px;
+        top: -1px;
+        font-size: 22px;
+        color: white;
+        line-height: 32px; }
+      body .container-fluid header .seachBar .seach {
+        width: 388px;
+        height: 32px;
+        font-size: 20px;
+        background-color: #7828B4;
+        border: none;
+        padding-left: 32px;
+        color: #fff; }
+        body .container-fluid header .seachBar .seach::-webkit-input-placeholder {
+          font-family: "Roboto-Italic";
+          font-size: 20px;
+          color: rgba(255, 255, 255, 0.5);
+          font-style: italic; }
+        body .container-fluid header .seachBar .seach:-ms-input-placeholder {
+          font-family: "Roboto-Italic";
+          font-size: 20px;
+          color: rgba(255, 255, 255, 0.5);
+          font-style: italic; }
+        body .container-fluid header .seachBar .seach::-ms-input-placeholder {
+          font-family: "Roboto-Italic";
+          font-size: 20px;
+          color: rgba(255, 255, 255, 0.5);
+          font-style: italic; }
+        body .container-fluid header .seachBar .seach::placeholder {
+          font-family: "Roboto-Italic";
+          font-size: 20px;
+          color: rgba(255, 255, 255, 0.5);
+          font-style: italic; }
+        body .container-fluid header .seachBar .seach:focus {
+          outline: none; }
+  body .container-fluid main {
+    position: relative; }
+    body .container-fluid main > * {
+      display: inline-block; }
+    body .container-fluid main .conditionBlock {
+      width: 300px;
+      margin: 0 38px; }
+      body .container-fluid main .conditionBlock > * {
+        background-color: #EBEBEB;
+        border-bottom: 1px solid #D7D7D7; }
+        body .container-fluid main .conditionBlock > * h2 {
+          font-size: 20px;
+          font-family: "Roboto-Bold";
+          font-weight: bold;
+          padding: 24px 0 0 40px; }
+      body .container-fluid main .conditionBlock .location {
+        height: 127px; }
+        body .container-fluid main .conditionBlock .location select {
+          background-color: #fff;
+          margin: 15px 0 0 40px;
+          width: 220px;
+          height: 40px; }
+      body .container-fluid main .conditionBlock .date {
+        height: 187px; }
+        body .container-fluid main .conditionBlock .date .startDate, body .container-fluid main .conditionBlock .date .endDate {
+          margin-top: 24px; }
+          body .container-fluid main .conditionBlock .date .startDate label, body .container-fluid main .conditionBlock .date .endDate label {
+            padding-right: 13px;
+            padding-left: 44px; }
+          body .container-fluid main .conditionBlock .date .startDate input, body .container-fluid main .conditionBlock .date .endDate input {
+            width: 169px;
+            height: 40px; }
+        body .container-fluid main .conditionBlock .date .endDate label {
+          padding-left: 63px; }
+      body .container-fluid main .conditionBlock .categories {
+        height: 225px; }
+        body .container-fluid main .conditionBlock .categories h2 {
+          margin-bottom: 24px; }
+        body .container-fluid main .conditionBlock .categories .form-check {
+          margin: 8px 0;
+          padding-left: 60px; }
+          body .container-fluid main .conditionBlock .categories .form-check label {
+            font-size: 16px; }
+        body .container-fluid main .conditionBlock .categories .form-check-input {
+          position: absolute;
+          top: -5px; }
+    body .container-fluid main .showResult .seachResult h2 {
+      font-size: 24px;
+      margin-top: 24px; }
+      body .container-fluid main .showResult .seachResult h2 .dataLen {
+        font-family: Roboto-Bold;
+        color: #9013FE;
+        font-weight: bold; }
+    body .container-fluid main .showResult .seachResult .tag {
+      display: inline-block;
+      padding: 8px 38px 8px 16px;
+      border: 1px solid #9013FE;
+      border-radius: 100px;
+      position: relative;
+      color: #9013FE;
+      margin-top: 8px;
+      margin-right: 8px; }
+      body .container-fluid main .showResult .seachResult .tag i {
+        position: absolute;
+        right: 15px;
+        top: 9px; }
+    body .container-fluid main .showResult .seachResult ul li {
+      margin: 24px 0px; }
+      body .container-fluid main .showResult .seachResult ul li .locationImg {
+        background-image: url(../Images/a.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      body .container-fluid main .showResult .seachResult ul li .b {
+        background-image: url(../Images/b.jpg); }
+      body .container-fluid main .showResult .seachResult ul li .c {
+        background-image: url(../Images/c.jpg); }
+      body .container-fluid main .showResult .seachResult ul li .infoBlock {
+        padding: 24px 0 0 20px;
+        background-color: #fff; }
+        body .container-fluid main .showResult .seachResult ul li .infoBlock h2 {
+          font-size: 24px;
+          color: #9013FE;
+          font-weight: bold;
+          margin-top: 0;
+          margin-bottom: 16px;
+          width: 70%;
+          line-height: 36px; }
+        body .container-fluid main .showResult .seachResult ul li .infoBlock p {
+          font-size: 16px;
+          line-height: 24px;
+          overflow: hidden;
+          height: 50px;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis;
+          margin-bottom: 13px; }
+        body .container-fluid main .showResult .seachResult ul li .infoBlock .organizer {
+          font-size: 16px;
+          font-weight: bold;
+          margin: 16px 0; }
+        body .container-fluid main .showResult .seachResult ul li .infoBlock .liTags {
+          display: inline-block;
+          border-radius: 100px;
+          background-color: #D7D7D7;
+          color: #fff;
+          text-align: center;
+          padding: 3px 16px;
+          margin-left: 20px; }
+        body .container-fluid main .showResult .seachResult ul li .infoBlock .eventContent {
+          margin-top: 16px;
+          margin-bottom: 24px; }
+          body .container-fluid main .showResult .seachResult ul li .infoBlock .eventContent .locationCity, body .container-fluid main .showResult .seachResult ul li .infoBlock .eventContent .date {
+            display: inline-block;
+            color: #9b9b9b; }
+            body .container-fluid main .showResult .seachResult ul li .infoBlock .eventContent .locationCity i, body .container-fluid main .showResult .seachResult ul li .infoBlock .eventContent .date i {
+              font-size: 20px;
+              color: black;
+              margin-right: 7px; }
+          body .container-fluid main .showResult .seachResult ul li .infoBlock .eventContent .locationCity {
+            margin-right: 20px; }
+    body .container-fluid main .showResult .seachResult .pages {
+      position: absolute;
+      right: 9.4%; }
+      body .container-fluid main .showResult .seachResult .pages .active {
+        background: #9013FE;
+        color: #fff; }
+        body .container-fluid main .showResult .seachResult .pages .active a {
+          color: #fff; }
+      body .container-fluid main .showResult .seachResult .pages li {
+        width: 41px;
+        height: 41px;
+        line-height: 41px;
+        text-align: center;
+        background-color: #fff;
+        color: #9013FE;
+        border: 1px solid #ECEEEF;
+        border-bottom: none;
+        border-top: none;
+        -webkit-transition: .3s all;
+        -o-transition: .3s all;
+        transition: .3s all; }
+        body .container-fluid main .showResult .seachResult .pages li a {
+          color: #9013FE; }
+
+/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["all.js","all2.js"],"names":["pi","pii"],"mappings":";;AAAA,IAAMA,KAAK,IAAX;;;ACAA,IAAMC,MAAM,IAAZ","file":"all.js","sourcesContent":["const pi = 3.14;","const pii = 3.15;"]}

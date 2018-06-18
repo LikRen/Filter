@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>F2E - Filter</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="row">
+        <a href="#" class="col-4">
+          <h1 href="#">haveFun</h1>
+        </a>
+        <div class="seachBlock col-8 d-flex align-items-center">
+          <div class="seachBar">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" class="seach" placeholder="Explore your own activities">
+          </div>
+        </div>
+      </header>
+      <main class="row">
+        <div class="conditionBlock">
+          <div class="location">
+            <h2>Location</h2>
+            <select name="location" id="location">
+              <option value="Taiwan">Taiwan</option>
+              <option value="Kaosiung">Kaosiung</option>
+            </select>
+          </div>
+          <div class="date">
+            <h2>Date</h2>
+            <form>
+              <div class="form-group startDate row no-gutters">
+                <label for="startDate" class="col-form-label">from</label>
+                <div>
+                  <input type="date" class="form-control" id="startDate">
+                </div>
+              </div>
+              <div class="form-group endDate row no-gutters">
+                <label for="endDate" class="col-form-label">to</label>
+                <div>
+                  <input type="date" class="form-control" id="endDate" placeholder="Password">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="categories">
+            <h2>Categories</h2>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                All
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                Entertainment
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                Food
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                Learning
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                Outdoors
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="showResult col">
+          <div class="seachResult">
+            <h2>Showing <span class="dataLen">15</span> results by…</h2>
+            <div class="tag">Koahsiung<i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
+            <div class="tag">Entertainment<i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
+            <ul>
+              <li class="row">
+                <div class="locationImg col-3"></div>
+                <div class="infoBlock col-8">
+                    <h2>Kogi Cosby sweater.</h2>
+                    <p>Donec euismod scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu. Curabitur fermentum suscipit est, tincidunt mattis lorem luctus id. Donec eget massa a diam condimentum pretium. Aliquam erat volutpat. Integer ut tincidunt orci. Etiam tristique, elit ut consectetur iaculis, metus lectus mattis justo, vel mollis eros neque quis augue. Sed lobortis ultrices lacus, a placerat metus rutrum sit amet. Aenean ut suscipit justo.</p>
+                    <span class="organizer">Ethan Foster</span>
+                    <div class="liTags">Entertainment</div>
+                    <div class="eventContent">
+                      <div class="locationCity"><i class="fa fa-map-marker" aria-hidden="true"></i>Kaohsiung City</div>
+                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i>2018/5/24 - 2018/5/31</div>                        
+                    </div>
+                </div>
+              </li>
+              <li class="row">
+                <div class="locationImg b col-3"></div>
+                <div class="infoBlock col-8">
+                    <h2>In the tumultuous business.</h2>
+                    <p>It was a humorously perilous business for both of us. For, before we proceed further, it must be said that the monkey-rope was fast at both ends; fast to Queequeg's broad canvas belt, and fast to my narrow leather one. So that for better or for worse, we two, for the time, were wedded; and should poor Queequeg sink to rise no more, then both usage and honour demanded, that instead of cutting the cord, it should drag me down in his.</p>
+                    <span class="organizer">Herman Cobb</span>
+                    <div class="liTags">Entertainment</div>
+                    <div class="eventContent">
+                      <div class="locationCity"><i class="fa fa-map-marker" aria-hidden="true"></i>Kaohsiung City</div>
+                      <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i>2018/5/24 - 2018/5/31</div>                        
+                    </div>
+                </div>
+              </li>
+              <li class="row">
+                <div class="locationImg c col-3"></div>
+                <div class="infoBlock col-8">
+                  <h2>I have hinted that I would often jerk poor 
+                      Queequeg from between the wha.</h2>
+                  <p>In the tumultuous business of cutting-in and attending to a whale, there is much running backwards and forwards among the crew. Now hands are wanted here, and then again hands are wanted there. There is no staying in any one place; for at one and the same time everything has to be done everywhere. It is much the same with him who endeavors the description of the scene. We must now retrace our way a little. It was mentioned that up.</p>
+                  <span class="organizer">Landon Powers</span>
+                  <div class="liTags">Entertainment</div>
+                  <div class="eventContent">
+                    <div class="locationCity"><i class="fa fa-map-marker" aria-hidden="true"></i>Kaohsiung City</div>
+                    <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i>2018/5/24 - 2018/5/31</div>                        
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul class="pages row">
+              <li><a href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/all.js"></script>
+    <script>
+        $(function() {
+          $( "#datepicker" ).datepicker();
+        });
+    </script>
+  </body>
+</html>
